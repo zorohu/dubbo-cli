@@ -18,12 +18,16 @@
   ],
   "dependencies": {
     "@oclif/core": "^2",
+    "@oclif/plugin-commands": "^2.2.10",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.3.0"
+    "@oclif/plugin-plugins": "^2.3.0",
+    "apache-dubbo-consumer": "^4.0.0",
+    "inquirer": "^8.2.3"
   },
   "devDependencies": {
     "@oclif/test": "^2.3.5",
     "@types/chai": "^4",
+    "@types/inquirer": "^8.2.6",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.18.12",
     "chai": "^4",
@@ -43,6 +47,7 @@
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
+      "@oclif/plugin-commands",
       "@oclif/plugin-plugins"
     ],
     "topicSeparator": " ",
