@@ -28,6 +28,7 @@
     "@oclif/test": "^2.3.5",
     "@types/chai": "^4",
     "@types/inquirer": "^8.2.6",
+    "@types/js-to-java": "^2.7.1",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.18.12",
     "chai": "^4",
